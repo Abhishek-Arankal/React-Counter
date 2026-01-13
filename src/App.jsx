@@ -26,6 +26,7 @@ function App() {
     <div className="flex flex-col gap-3">
       <button className="px-4 py-2 bg-green-600 rounded hover:bg-green-700 transition" onClick={() => handleIncrement()} disabled={count === 10}>Increment</button>
       <button className="px-4 py-2 bg-red-600 rounded hover:bg-red-700 transition"onClick={() => handleDecrement()} disabled={count === 0}>Decrement</button>
+      <button className='px-4 py-2 bg-yellow-600 rounded hover:bg-yellow-700 transition' onClick={() => setCount(0)}>Reset</button>
     </div>
 
   </div>
